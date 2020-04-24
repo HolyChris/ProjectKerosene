@@ -17,13 +17,13 @@ Thank you and please let us know what you think!
 
 ## Overview Video
 
-[![Project Kerosene Overview Video](ImageURL "Project Kerosene Overview Video")](https://youtu.be/9v0oMkcDCVw)
+[![Project Kerosene Overview Video](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Intro.png "Project Kerosene Overview Video")](https://youtu.be/9v0oMkcDCVw)
 
 ## Getting Started
 
 1. First you need to have a Helium Console account. Create one at https://console.helium.com/dashboard
 1. Once you're logged in, you will want to create a new device, click on 'Devices' then on the right side, click 'new device'
-   - ![Device Creation](./Assets/DeviceCreation.png)
+   - ![Device Creation](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/DeviceCreation.png)
 1. Give your device a name, and click okay. 
 1. Next you'll wan to get your APPEUI, DEVEUI, and APPKEY values in the correct format. Click on the device you just created 
    1. ![Key Location](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyLocation.png)
