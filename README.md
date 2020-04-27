@@ -2,6 +2,8 @@
 
 [SolderWorks](https://www.solderworks.com/) is considering offering the ability to connect to a secure, remote connection to an ST Micro B-L072Z-LRWAN1 Discovery board to enable rapidly getting familiar with the Helium network from anywhere on the planet. Below are instructions on how to get started.
 
+![Device Creation](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/ConnectingTo.JPG)
+
 *IMPORTANT: We are looking for feedback on this service and would genuinely appreciate hearing about your experience. It would be immensly useful if you could answer the following questions and email them to chris@solderworks.com*
 
 Desired Feedback:
@@ -37,7 +39,7 @@ Thank you and please let us know what you think!
 1. In the Helium Console, copy the app eui  key in the LSB format
    1. ![Copy Keys](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyFormat.png)
 1. Paste that key in between the brackets where it says APPEUI
-   1. ![Where to place keys](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/image.png)
+   1. ![Where to place keys](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/SampleCodeKeyLocation.png)
 1. Next, copy the DEVEUI key in the LSB format from the Helium Console, and paste that value betwen the brackets marked DEVEUI in the sample code
 1. Now, copy the APPKEY key in the MSB format from the Helium Console, and paste that value betwen the brackets marked APPKEY in the sample code
 1. If you'd like to check  your code for compile errors, you can do so by clicking the 'build' button
