@@ -1,6 +1,22 @@
-# Getting Started with Project Kerosene
+# What is Project Kerosene?
 
-[SolderWorks](https://www.solderworks.com/) is considering offering the ability to connect to a secure, remote connection to an ST Micro B-L072Z-LRWAN1 Discovery board to enable rapidly getting familiar with the Helium network from anywhere on the planet. Below are instructions on how to get started.
+Every embedded hardware developer faces the same workflow every time they want to get started with a new device. Before they can evaluate a sensor, before they can deploy, and even before they can write a single line of code they must go through the following process:
+
+1. Have the device in hand 
+1. Download the proper drivers
+1. Connect to the device
+1. Set up their development environment with the proper deployment toolchain
+1. Find a 'Hello World' code snippet to ensure the device is functional
+1. Get the board to flash correctly, deploy your code, and start building your application. 
+
+Project Kerosene offers the ability to skip to the last step: have a board with the correct toolchain available from anywhere on the planet. It is not a virtualized board, it is not a board with remote access, it is Hardware-As-A-Service where you can request a session on a physical device to get up and running with new hardware with no overhead. 
+
+The following demonstration offers you the chance to become familiar with the ST Micro B-L072Z-LRWAN1 Discovery board which has a ST X-NUCLEO-IKS01A3 sensor board attached. Using this, you can build and test an entire end-to-end IoT Application on the Helium Network from anywhere on the planet with no need to have a single piece of hardware in your possession.
+
+
+# Getting Started with Helium Tutorial
+
+In this tutorial, we'll provision a new device on the Helium network, request a remote session using Project Kerosene on an ST Micro B-L072Z-LRWAN1 Discovery board which has a ST X-NUCLEO-IKS01A3 sensor board attached, place our newly provisioned device keys into the provided sample code, flash our code onto the Discovery board, then see our data traverse the Helium network in real time, on real devices. At the end of the tutorial, we suggest what you can do with this system beyond an introduction. 
 
 ![Device Creation](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/ConnectingTo.JPG)
 
@@ -11,7 +27,8 @@ Desired Feedback:
 1. Have you used LoRaWAN devices or the Helium Network Before?
 1. What are you initial thoughts on the service?
 1. Did this make it easier for you to get started with LoRaWAN and helium?
-1. On a scale of 1-10, would you recommend this to a friend? (1= Would not recommend, 10= Would highly recommend)
+1. Is there anything you might think of using this service for?
+<!-- 1. On a scale of 1-10, would you recommend this to a friend? (1= Would not recommend, 10= Would highly recommend) -->
 
 Thank you and please let us know what you think!
 
@@ -31,11 +48,12 @@ Thank you and please let us know what you think!
    1. ![Key Location](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyLocation.png)
 1. Next, you'll want get your keys in the correct format, click on the arrows next to the keys to change the format to least significant bit (lsb) or most significant bit (msb). You'll want both the APPEUI and DEVEUI in lsb format, and the APP KEY in msb format
    1. ![Key Format](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyFormat.png)
-1. Now we're ready to request a remote session with our hardware. **[Click THIS LINK to request a session.](https://rerobots.net/sandbox/helium/gy4Z4kRfgn4yAuavaWeGWQjjF1WJeQt6)** 
-   1. This is currently limited to 10 concurrent sessions, if you are unable to connect, give the system 20 minutes to clear up a previous session. 
-   1. If you are unable to connect to a session, please reach out to chris@solderworks.com 
+1. Now we're ready to request a remote session using Project Kerosene: 
+   - **[Click THIS LINK to request a session.](https://rerobots.net/sandbox/helium/gy4Z4kRfgn4yAuavaWeGWQjjF1WJeQt6)** 
+   -  If there are no boards available, please wait a few minutes and refresh the page. We are currently limited by the number of devices available.
+   - _(If you are unable to get an instance, please reach out to chris@solderworks.com)_
 1. When you have a remote session, you'll be presented with a screen  showing an editor on the left, a 'terminal' on the right, and 2 buttons of 'build' and 'flash'. Now you're ready to input your fresh device keys. 
-   1. ![Device Creation](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/DeviceCreation.png)
+   1. ![Environment](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Environment.png)
 1. In the Helium Console, copy the app eui  key in the LSB format
    1. ![Copy Keys](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyFormat.png)
 1. Paste that key in between the brackets where it says APPEUI
@@ -55,9 +73,27 @@ Thank you and please let us know what you think!
 1. ...
 1. **PROFIT**
 
-**Thanks for taking the time to try this out! If you could answer the following questions in an email to chris@solderworks.com, you'll be first on our list when this rolls out**
+## What now?
+
+First, thank you for taking the time to try this out! We'd LOVE to hear your thoughts, what made sense, what didn't, or anything about your experience you'd like to share. Here are the following questions we're most interested in:
 
 1. Have you used LoRaWAN devices or the Helium Network Before?
 1. What are you initial thoughts on the service?
 1. Did this make it easier for you to get started with LoRaWAN and helium?
-1. On a scale of 1-10, would you recommend this to a friend? (1= Would not recommend, 10= Would highly recommend)
+1. Is there anything you might think of using this service for?
+<!-- 1. On a scale of 1-10, would you recommend this to a friend? (1= Would not recommend, 10= Would highly recommend) -->
+
+**Please send your response to chris@solderworks.com and we'll be in touch**
+
+### Here's how we envision utilizing this service
+
+Now that you're gotten this far, I'd like to share how we think of this project, if any of these reasonate, let's talk. 
+
+1. Give new users of hardware platforms real experience with the device without requiring it to be in their possession.
+1. Effective, distributed, and remote training opportunities on real devices which are always in a known state (no more device setup during training!)
+1. Application developers can quickly evaluate hardware platforms
+1. Application developers can quickly evaluate sensors
+1. Have the ability to take code that might have worked in a simulator and run it on a physical device
+1. Co-operatively debug code running on an embedded device (disambiguate hardware, software, and firmware issues)
+1. Integrate Continuous Integration processes with on demand physical devices
+
