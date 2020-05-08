@@ -20,7 +20,7 @@ In this tutorial, we'll provision a new device on the Helium network, request a 
 
 ![Device Creation](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/ConnectingTo.JPG)
 
-*IMPORTANT: We are looking for feedback on this service and would genuinely appreciate hearing about your experience. It would be immensly useful if you could answer the following questions and email them to chris@solderworks.com*
+*IMPORTANT: We are looking for feedback on this service and would genuinely appreciate hearing about your experience. It would be immensly useful if you could answer the following questions and email them to c@m3r.co*
 
 Desired Feedback:
 
@@ -51,7 +51,7 @@ Thank you and please let us know what you think!
 1. Now we're ready to request a remote session using Project Kerosene: 
    - **[Click THIS LINK to request a session.](https://rerobots.net/sandbox/helium/gy4Z4kRfgn4yAuavaWeGWQjjF1WJeQt6)** 
    -  If there are no boards available, please wait a few minutes and refresh the page. We are currently limited by the number of devices available.
-   - _(If you are unable to get an instance, please reach out to chris@solderworks.com)_
+   - _(If you are unable to get an instance, please reach out to c@m3r.co)_
 1. When you have a remote session, you'll be presented with a screen  showing an editor on the left, a 'terminal' on the right, and 2 buttons of 'build' and 'flash'. Now you're ready to input your fresh device keys. 
    1. ![Environment](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Environment.png)
 1. In the Helium Console, copy the app eui  key in the LSB format
@@ -69,7 +69,7 @@ Thank you and please let us know what you think!
    1. ![Console with real data](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/DataComingThrough.png)
 1. You can now set up your backend services like AWS IOT or Helium Cargo as a way to store the data that you were transmitting over the network. [Here is a great video on how to get started with AWS IOT](https://youtu.be/XLxUgwdbqG8)
 1. You can also modify the code in the editor to make changes to the data that you want to transmit.
-1. Initially these device sessions will be limited to 15 minutes. If you would like a longer duration of time, please reach out to chris@solderworks.com
+1. Initially these device sessions will be limited to 15 minutes. If you would like a longer duration of time, please reach out to c@m3r.co
 1. ...
 1. **PROFIT**
 
@@ -83,7 +83,7 @@ First, thank you for taking the time to try this out! We'd LOVE to hear your tho
 1. Is there anything you might think of using this service for?
 <!-- 1. On a scale of 1-10, would you recommend this to a friend? (1= Would not recommend, 10= Would highly recommend) -->
 
-**Please send your response to chris@solderworks.com and we'll be in touch**
+**Please send your response to c@m3r.co and we'll be in touch**
 
 ### Here's how we envision utilizing this service
 
