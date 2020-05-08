@@ -36,7 +36,7 @@ Thank you and please let us know what you think!
 
 ## Overview Video
 
-[![Project Kerosene Overview Video](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Intro.png "Project Kerosene Overview Video")](https://youtu.be/9v0oMkcDCVw)
+[![Project Kerosene Overview Video](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Intro.png "Project Kerosene Overview Video")](https://youtu.be/n0ywquV5GpY)
 
 ## Getting Started
 
