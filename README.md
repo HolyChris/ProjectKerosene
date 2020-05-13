@@ -16,7 +16,7 @@ The following demonstration offers you the chance to become familiar with the ST
 
 # Getting Started with Helium Tutorial
 
-**NOTE: DUE TO A SUB-BAND CHANGE ON THE HELIUM NETWORK, THIS TUTORIAL IS NOT FUNCTIONAL. WE ARE WORKING TO RESOLVE THIS!**
+**NOTE: DUE TO A SUB-BAND CHANGE ON THE HELIUM NETWORK, WE RECOMMEND CREATING NEW DEVICES INSTEAD OF USING PREVIOUSLY PROVISIONED DEVICES.**
 
 In this tutorial, we'll provision a new device on the Helium network, request a remote session using Project Kerosene on an ST Micro B-L072Z-LRWAN1 Discovery board which has a ST X-NUCLEO-IKS01A3 sensor board attached, place our newly provisioned device keys into the provided sample code, flash our code onto the Discovery board, then see our data traverse the Helium network in real time, on real devices. At the end of the tutorial, we suggest what you can do with this system beyond an introduction. 
 
