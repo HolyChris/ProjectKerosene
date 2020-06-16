@@ -1,4 +1,4 @@
-# What is Project Kerosene?
+# What is Hardshare?
 
 Every embedded hardware developer faces the same workflow every time they want to get started with a new device. Before they can evaluate a sensor, before they can deploy, and even before they can write a single line of code they must go through the following process:
 
@@ -9,16 +9,14 @@ Every embedded hardware developer faces the same workflow every time they want t
 1. Find a 'Hello World' code snippet to ensure the device is functional
 1. Get the board to flash correctly, deploy your code, and start building your application. 
 
-Project Kerosene offers the ability to skip to the last step: have a board with the correct toolchain available from anywhere on the planet. It is not a virtualized board, it is not a board with remote access, it is Hardware-As-A-Service where you can request a session on a physical device to get up and running with new hardware with no overhead. 
+Hardshare offers the ability to skip to the last step: have a board with the correct toolchain available from anywhere on the planet. It is not a virtualized board, it is not a board with remote access, it is Hardware-As-A-Service where you can request a session on a physical device to get up and running with new hardware with no overhead. 
 
 The following demonstration offers you the chance to become familiar with the ST Micro B-L072Z-LRWAN1 Discovery board which has a ST X-NUCLEO-IKS01A3 sensor board attached. Using this, you can build and test an entire end-to-end IoT Application on the Helium Network from anywhere on the planet with no need to have a single piece of hardware in your possession.
 
 
 # Getting Started with Helium Tutorial
 
-**NOTE: DUE TO A SUB-BAND CHANGE ON THE HELIUM NETWORK, WE RECOMMEND CREATING NEW DEVICES INSTEAD OF USING PREVIOUSLY PROVISIONED DEVICES.**
-
-In this tutorial, we'll provision a new device on the Helium network, request a remote session using Project Kerosene on an ST Micro B-L072Z-LRWAN1 Discovery board which has a ST X-NUCLEO-IKS01A3 sensor board attached, place our newly provisioned device keys into the provided sample code, flash our code onto the Discovery board, then see our data traverse the Helium network in real time, on real devices. At the end of the tutorial, we suggest what you can do with this system beyond an introduction. 
+In this tutorial, we'll provision a new device on the Helium network, request a remote session using Hardshare on an ST Micro B-L072Z-LRWAN1 Discovery board which has a ST X-NUCLEO-IKS01A3 sensor board attached, place our newly provisioned device keys into the provided sample code, flash our code onto the Discovery board, then see our data traverse the Helium network in real time, on real devices. At the end of the tutorial, we suggest what you can do with this system beyond an introduction. 
 
 ![Device Creation](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/ConnectingTo.JPG)
 
@@ -38,7 +36,7 @@ Thank you and please let us know what you think!
 
 ## Overview Video
 
-[![Project Kerosene Overview Video](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Intro.png "Project Kerosene Overview Video")](https://youtu.be/n0ywquV5GpY)
+[![Hardshare Overview Video](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/Intro.png "Hardshare Overview Video")](https://youtu.be/n0ywquV5GpY)
 
 ## Getting Started
 
@@ -50,7 +48,7 @@ Thank you and please let us know what you think!
    1. ![Key Location](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyLocation.png)
 1. Next, you'll want get your keys in the correct format, click on the arrows next to the keys to change the format to least significant bit (lsb) or most significant bit (msb). You'll want both the APPEUI and DEVEUI in lsb format, and the APP KEY in msb format
    1. ![Key Format](https://raw.githubusercontent.com/HolyChris/ProjectKerosene/master/images/KeyFormat.png)
-1. Now we're ready to request a remote session using Project Kerosene: 
+1. Now we're ready to request a remote session using Hardshare: 
    - **[Click THIS LINK to request a session.](https://rerobots.net/sandbox/helium/gy4Z4kRfgn4yAuavaWeGWQjjF1WJeQt6)** 
    -  If there are no boards available, please wait a few minutes and refresh the page. We are currently limited by the number of devices available.
    - _(If you are unable to get an instance, please reach out to c@m3r.co)_
